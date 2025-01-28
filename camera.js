@@ -13,4 +13,17 @@ function CameraScreen() {
             addImage(data.uri, latitude, logitude, timestamp)
         }
     }
+
+    return (
+        <RNCamera
+            ref={(ref) => { cameraRef = ref}}
+            style={{ flex: 1}}
+            type={RNCamera.Constants.Type.back}
+            captureAudio={false}
+            >
+                <Button title="Take Picture" onPress={takePicture} />
+        </RNCamera>
+    )
 }
+
+export default CameraScreen
