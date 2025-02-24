@@ -5,5 +5,5 @@
 <p>A React Native-based image gallery application that integrates geolocation, SQLite for local storage, and camera functionality. This app allows users to capture images, store metadata including geolocation information, view images in a gallery, and display their locations on a map.</p>
 
 <h1>Features</h1>
-* <h3>Image Gallery:</h3><p>View captured images in a grid or carousel view.</p>
-*<h3>Geolocation Tagging:</h3>
+<h3>Image Gallery:</h3><p>View captured images in a grid or carousel view.</p>
+<h3>Geolocation Tagging:</h3>
